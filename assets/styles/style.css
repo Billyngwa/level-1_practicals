@@ -1,0 +1,63 @@
+@font-face{
+    font-family: 'lato-semibold';
+    src: url('../fonts/lato-semibold-webfont.woff');
+}
+@font-face{
+    font-family: 'roboto-regular';
+    src: url('../fonts/roboto-regular-webfont.woff');
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div.background-image{
+    background-image: url('../../images/world-blobe.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+div.background-color{
+    background-color: rgba(0, 0, 0, 0.592);
+    height: 100vh;
+}
+div.banner-parts{
+    padding-top: 20px;
+}
+h1.banner{
+    color: white;
+    font-family: "poppins";
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+h2.descr{
+    color: white;
+    font-family: "poppins";
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+}
+p.banner-description{
+    color: white;
+    font-family: "poppins";
+    font-size: 19px;
+    text-align: center;
+}
+div button{
+    color: white;
+    font-family: "poppins";
+    font-size: 24px;
+    text-align: center;
+    background-color:rgba(0, 0, 128, 0.442);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 5px;
+   font-weight: 400;
+}
+div.opp{
+    /* width: 50%; */
+    margin-left: 45%;
+}
